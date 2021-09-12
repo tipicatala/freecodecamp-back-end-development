@@ -1,5 +1,10 @@
 {
 	"name": "fcc-learn-npm-package-json",
+	"author": "Daria Platonova",
+	"description": "Managing Packages with NPM",
+	"keywords": ["freecodecamp", "backend", "APIs"],
+	"license": "MIT",
+	"version": "1",
 	"dependencies": {
 		"express": "^4.14.0"
 	},
