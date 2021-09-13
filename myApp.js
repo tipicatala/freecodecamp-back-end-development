@@ -36,6 +36,7 @@ app.get('/name', function(req, res) {
 
 app.post('/name', function(req, res) {
   const { first, last } = req.body
+  console.log('  jjjjj')
   res.json({ name: first + ' ' + last})
 })
 
