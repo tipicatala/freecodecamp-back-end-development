@@ -40,4 +40,13 @@ app.post('/name', function(req, res) {
   res.json({ name: first + ' ' + last})
 })
 
+app.get("/api/whoami", function (req, res) {
+  console.log(req)
+  res.json({
+    "ipaddress": req.ip,
+    "language": req.headers["accept-language"],
+    "software": req.headers["user-agent"],
+  });
+});
+
 module.exports = app;
